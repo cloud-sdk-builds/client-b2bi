@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-b2bi`](https://www.npmjs.com/package/@aws-sdk/client-b2bi/v/3.946.0).
+[`@aws-sdk/client-b2bi`](https://www.npmjs.com/package/@aws-sdk/client-b2bi/v/3.947.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.946.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.947.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Qxv6X2Us3d4mcp5RioNMG7ylpCWLFvAf9N8Bi7ZDcL3ds/Bcjn+7E67z1Hpko1g3
+sha384-BR1Sgzas1SzrVO7hgl3yUU0ztcXmj9TIa5j3S4cphSu5lWlxSvxB6trHwBcKhqZX
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-b2bi": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.946.0/index.min.mjs"
+            "@aws-sdk/client-b2bi": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.947.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.946.0/index.min.mjs": "sha384-Qxv6X2Us3d4mcp5RioNMG7ylpCWLFvAf9N8Bi7ZDcL3ds/Bcjn+7E67z1Hpko1g3"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.947.0/index.min.mjs": "sha384-BR1Sgzas1SzrVO7hgl3yUU0ztcXmj9TIa5j3S4cphSu5lWlxSvxB6trHwBcKhqZX"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-b2bi": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.946.0/index.min.mjs"
+                        "@aws-sdk/client-b2bi": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.947.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.946.0/index.min.mjs": "sha384-Qxv6X2Us3d4mcp5RioNMG7ylpCWLFvAf9N8Bi7ZDcL3ds/Bcjn+7E67z1Hpko1g3"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-b2bi@3.947.0/index.min.mjs": "sha384-BR1Sgzas1SzrVO7hgl3yUU0ztcXmj9TIa5j3S4cphSu5lWlxSvxB6trHwBcKhqZX"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.946.0`)
+* Always pin to a specific version (`@3.947.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-b2bi/blob/refs/tags/3.946.0/LICENSE
+https://github.com/cloud-sdk-builds/client-b2bi/blob/refs/tags/3.947.0/LICENSE
 ```
 
 ---
